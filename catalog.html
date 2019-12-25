@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Каталог товаров</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow" /> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+	<div class="container">
+		<div class="header-top">
+			<div class="header-top__logo">
+				<a href="" class="header-top__logotype"><img src="img/logo.png" alt="Logotype" /></a>
+			</div>
+			<form class="header-top__search search-header">
+				<input type="text" autocomplete="off" name="form[]" placeholder="Поиск" class="search-header__input" />
+				<button type="submit" class="search-header__btn">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
+						<path fill="#3B3B3B" d="M447 428L337.6 318.4A192.5 192.5 0 00192.4 0C86.3 0 0 86.3 0 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126-47.2L428.2 447a13.2 13.2 0 0019 0 13.5 13.5 0 000-19zM27 192.3C27 101.1 101 27 192.3 27c91.1 0 165.3 74.2 165.3 165.3s-74.2 165.4-165.4 165.4A165.6 165.6 0 0127 192.3z" class="active-path" data-old_color="#000000" data-original="#000000"/>
+					</svg>
+				</button>
+			</form>
+			<div class="header-top__block block-header">
+				<div class="block-header__icon">
+					<svg class="block-header__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463 463">
+						<path fill="#5A84C5" d="M462.7 381a35.5 35.5 0 00-17.6-26.2L330.8 289c-14-8-31.7-5.7-43.1 5.7l-22.5 22.5c-6 6-15.5 6.5-22 1.2a650.3 650.3 0 01-98.6-98.6c-5.3-6.5-4.8-16 1.2-22l22.5-22.5a35.8 35.8 0 005.7-43.1L108.2 17.9A35.5 35.5 0 0082 .3a35.5 35.5 0 00-30 10.2L18 44.4c-23.6 23.7-24 67-1 121.9C39 219 80.3 277.3 133 330c52.8 52.7 111 94 163.7 116a191 191 0 0071.7 17c21.1 0 38.2-6 50.2-18l34-34c7.9-7.9 11.6-18.8 10-30zm-139.3-79l114.2 65.8a20.6 20.6 0 016.3 30.3l-151.8-86.6 6.2-6.2c6.6-6.6 17-8 25-3.3zM80 15.2c6.4.8 12 4.6 15.2 10.2L161 139.6a20.8 20.8 0 01-3.3 25.1l-5.7 5.7L65 19a20.5 20.5 0 0115-4zm328 419.2c-18.8 18.8-57.2 18-105.5-2.2-51-21.3-107.5-61.4-158.9-112.8-51.4-51.4-91.5-107.9-112.8-159-20.2-48.2-21-86.6-2.2-105.4l25.2-25.2L141 181.4l-5.8 5.8a31.5 31.5 0 00-2.3 42 665.5 665.5 0 00100.9 101 31.5 31.5 0 0042-2.4l5.3-5.3 152 86.7-25 25.2z" class="active-path" data-old_color="#000000" data-original="#000000"/>
+					</svg>
+				</div>
+				<div class="block-header__content">
+					<a class="block-header__link" href="tel:+88005553535" rel="nofollow">8 800 555 3535</a>
+				</div>
+			</div>
+			<div class="header-top__block block-header">
+				<div class="block-header__icon">
+					<svg class="block-header__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+						<path fill="#5A84C5" d="M486.4 59.7H25.6A25.6 25.6 0 000 85.3v341.4a25.6 25.6 0 0025.6 25.6h460.8a25.6 25.6 0 0025.6-25.6V85.3a25.6 25.6 0 00-25.6-25.6zm8.5 367c0 4.7-3.8 8.5-8.5 8.5H25.6a8.5 8.5 0 01-8.5-8.5V85.3c0-4.7 3.8-8.5 8.5-8.5h460.8c4.7 0 8.5 3.8 8.5 8.5v341.4z" class="active-path" data-old_color="#000000" data-original="#000000"/>
+						<path fill="#5A84C5" d="M470 93.9c-2.2-.2-4.4.5-6.2 2L267 261.2a17 17 0 01-22 0L48.2 96a8.5 8.5 0 00-11 13L234 274.3a34 34 0 0044 0l196.8-165.4a8.5 8.5 0 00-4.7-15zM164.1 273.1c-3-.6-6.1.4-8.2 2.7l-119.5 128A8.5 8.5 0 1049 415.4l119.5-128a8.5 8.5 0 00-4.3-14.3zM356.1 275.8a8.5 8.5 0 10-12.5 11.6l119.5 128a8.5 8.5 0 0012.5-11.6L356 275.8z" class="active-path" data-old_color="#000000" data-original="#000000"/>
+					</svg>
+				</div>
+				<div class="block-header__content">
+					<a class="block-header__link" href="mailto:info@miniyoko.com" rel="nofollow">info@miniyoko.com</a>
+				</div>
+			</div>
+			<div class="header-top__block block-header">
+				<div class="block-header__icon">
+					<svg class="block-header__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+						<path fill="#5A84C5" d="M30 0a30 30 0 100 60 30 30 0 000-60zm0 58a28 28 0 110-56 28 28 0 010 56z" class="active-path" data-old_color="#000000" data-original="#000000"/>
+						<path fill="#5A84C5" d="M30 6a1 1 0 00-1 1v23H14a1 1 0 100 2h16c.6 0 1-.4 1-1V7c0-.6-.4-1-1-1z" class="active-path" data-old_color="#000000" data-original="#000000"/>
+					</svg>
+				</div>
+				<div class="block-header__content">
+					Часы работы<br>10:00-22:00
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-menu">
+		<div class="container">
+			<div class="header-menu__wrap">
+				<div class="header-menu__icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<ul class="header-menu__list">
+					<li><a href="#">Товары</a></li>
+					<li>
+						<a href="#">Как купить</a>
+						<ul class="sub-menu">
+							<li><a href="#">Акции и скидки</a></li>
+							<li><a href="#">Правила возврата</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Сотрудничество</a>
+						<ul class="sub-menu">
+							<li><a href="#">Франшиза</a></li>
+							<li><a href="#">Для поставщиков</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+				</ul>
+				<a href="#" class="header-menu__cart"><span>Корзина(0)</span></a>
+			</div>
+		</div>
+	</div>
+</header>
+		<main>
+			<div class="catalog-page">
+				<div class="container">
+					<div class="catalog-page__wrap">
+						<div class="catalog-page__side">
+							<ul class="catalog-page__categories">
+								<li class="current-cat"><a href="#">Категория 1</a></li>
+								<li><a href="#">Категория 2</a></li>
+								<li><a href="#">Категория 3</a></li>
+								<li><a href="#">Категория 4</a></li>
+								<li><a href="#">Категория 5</a></li>
+								<li><a href="#">Категория 6</a></li>
+								<li><a href="#">Категория 7</a></li>
+							</ul>
+						</div>
+						<div class="catalog-page__content">
+							<div class="catalogfilter">
+								<div class="catalogfilter__title">Сортировка: </div>
+								<div class="catalogfilter__wrap">
+									<a href="#" class="catalogfilter__tab active">Фильтр</a>
+									<a href="#" class="catalogfilter__tab">Фильтр</a>
+									<a href="#" class="catalogfilter__tab">Фильтр</a>
+									<a href="#" class="catalogfilter__tab">Фильтр</a>
+									<a href="#" class="catalogfilter__tab">Фильтр</a>
+								</div>
+							</div>
+
+							<div class="catalogproducts">
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/1.jpg" alt="Product 1" /></span></a>
+								</div>
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/2.jpg" alt="Product 2" /></span></a>
+								</div>
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/3.jpg" alt="Product 3" /></span></a>
+								</div>
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/4.jpg" alt="Product 4" /></span></a>
+								</div>
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/5.jpg" alt="Product 5" /></span></a>
+								</div>
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/6.jpg" alt="Product 6" /></span></a>
+								</div>
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/7.jpg" alt="Product 7" /></span></a>
+								</div>
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/8.jpg" alt="Product 8" /></span></a>
+								</div>
+								<div class="catalogproducts__item">
+									<a href="#"><span class="catalogproducts__image ibg"><img src="img/catalog/9.jpg" alt="Product 9" /></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+	<div class='container'>
+		<div class="footer__body">
+			<div class="footer__column">
+				<a href="#" class="footer__logo"><img src="img/logo-footer.png" alt="#" /></a>
+				<a href="tel:88005553535" class="footer__link footer__phone">8 800 555 35 35</a>
+				<p class="footer__descr">
+					Москва, ТЦ “Капитолий”,<br>
+					Правобережная 1Б, 2 этаж<br>
+					Email: <a href="mailto:info@miniyoko.com" class="footer__link">info@miniyoko.com</a><br>
+					Работаем: каждый день 10:00-22:00
+				</p>
+				<a href="#" class="footer__useraccept">Пользовательское соглашение</a>
+			</div>
+			<div class="footer__column">
+				<ul class="footer__menu">
+					<li><a href="#">Товары</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Инстаграм</a></li>
+					<li><a href="#">Франдчайзинг</a></li>
+				</ul>
+			</div>
+			<div class="footer__column">
+				<div class="footer__payment">
+					Мы принимаем к оплате:
+					<img src="img/payment.png" alt="Payment" />
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<div class="popup">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-content">
+				<div class="popup-close"></div>
+				<div class="popup__title"></div>
+				<div class="popup__txt"></div>
+				<form action="#" class="popup-form form">
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
+					</div>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
+					</div>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
+					</div>
+					<div class="form-button">
+						<button type="submit" class="form__btn btn fw"></button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup-video">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-close"></div>
+			<div class="popup-video__value"></div>
+		</div>
+	</div>
+</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
+<script src="js/vendors.js"></script>
+<script src="js/main.js"></script>
+<script src="js/custom.js" ></script>
+
+</body>
+</html>
