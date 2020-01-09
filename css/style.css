@@ -1360,9 +1360,11 @@ h1, h2, h3, h4, h5, h6 {
 .delivery {
   padding-top: 20px;
   padding-bottom: 20px; }
-  @media (max-width: 479.98px) {
-    .delivery img {
-      max-width: 60%; } }
+  .delivery img {
+    max-width: 400px; }
+    @media (max-width: 479.98px) {
+      .delivery img {
+        max-width: 60%; } }
   .delivery__wrap {
     display: -webkit-box;
     display: -moz-box;
@@ -1914,7 +1916,8 @@ h1, h2, h3, h4, h5, h6 {
   .textpage__content {
     width: 70%;
     font-size: 16px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    line-height: 20px; }
     .textpage__content a {
       color: #CA2222;
       -webkit-transition: all 0.3s ease 0s;
