@@ -142,18 +142,20 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
-  max-width: 1230px;
+  max-width: 540px;
   margin: 0px auto;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 30px; }
 
 .popup-close {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 10px;
+  right: 10px;
   cursor: pointer;
-  background: url("../img/icons/close.png") 0 0 no-repeat; }
+  background: url("../img/icons/close.png") 0 0 no-repeat;
+  background-size: cover; }
 
 .popup-video .popup-close {
   width: 40px;
@@ -2091,6 +2093,9 @@ h1, h2, h3, h4, h5, h6 {
   .cart-checkoutblock__btn {
     margin-bottom: 20px; }
 
+section.popup-ship {
+  padding: 50px 0; }
+
 .form-row {
   display: -webkit-box;
   display: -moz-box;
@@ -2257,7 +2262,18 @@ textarea.input {
     border: 1px solid #7f7f7f;
     border-radius: 50%; }
   .option.active:before {
-    background: url("../img/icons/option.png") center no-repeat; }
+    background: url("../img/icons/check.png") center no-repeat;
+    background-size: 10px 10px; }
+
+.options {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .rating-block {
   display: table;
@@ -2441,6 +2457,13 @@ textarea.input {
 .form-range-values__item {
   font-size: 12px;
   color: #888; }
+
+.form-input input {
+  border: 1px solid #ccc;
+  padding: 13px 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px; }
 
 .row:after {
   display: block;
